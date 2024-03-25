@@ -1,0 +1,151 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white: #fff;
+  --dairy: #fcfcfc;
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
+}
+body {
+  color: var(--slate);
+  letter-spacing: 0.02em;
+  font-family: var(--font-family);
+}
+.logo {
+  font-family: var(--second-family);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+  text-decoration: none;
+}
+nav > .logo > span {
+  color: var(--navy-blue);
+}
+footer > .logo > span {
+  color: var(--cloud);
+}
+.list-items {
+  list-style-type: none;
+}
+.list-items > li > a {
+  text-decoration: none;
+}
+header > nav > .list-items > li > a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--navy-blue);
+}
+header > nav > .list-items > li > a:hover {
+  color: var(--iris);
+}
+header > .contacts a {
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--slate);
+  font-style: normal;
+}
+header > .contacts a:hover {
+  color: var(--iris);
+}
+.page-title {
+  width: 1440px;
+  height: 600px;
+  background: var(--navy-blue);
+}
+.page-title h1 {
+  width: 496px;
+  height: 120px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+  text-align: center;
+  color: var(--white);
+}
+.page-title button {
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  background: var(--iris);
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--navy-blue);
+}
+button {
+  cursor: pointer;
+  color: var(--white);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+.filter-button {
+  border: 1px solid var(--cornflower);
+  border-radius: 4px;
+  padding: 12px 24px;
+  width: 116px;
+  height: 48px;
+  background-color: var(--cloud);
+  color: var(--iris);
+}
+.filter-button:hover {
+  background-color: var(--ocean);
+  color: var(--white);
+}
+.page-title button:hover {
+  background: var(--ocean);
+}
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: var(--navy-blue);
+}
+.benefits .list-items > p {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+}
+.team {
+  background: var(--cloud);
+}
+.team-list > li {
+  width: 264px;
+  height: 380px;
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: var(--white);
+}
+.portfolio-item {
+  border: 1px solid #e7e9fc;
+  width: 360px;
+  height: 420px;
+}
+footer {
+  width: 1440px;
+  height: 312px;
+  background: var(--navy-blue);
+}
+footer > p {
+  width: 264px;
+  height: 112px;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--cloud);
+}
