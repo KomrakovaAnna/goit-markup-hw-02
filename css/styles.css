@@ -17,6 +17,7 @@
 body {
   color: var(--slate);
   letter-spacing: 0.02em;
+  font-size: 16px;
   font-family: var(--font-family);
 }
 .logo {
@@ -29,42 +30,41 @@ body {
   color: var(--iris);
   text-decoration: none;
 }
-nav > .logo > span {
+.logo-header {
   color: var(--navy-blue);
 }
-footer > .logo > span {
+.logo-footer {
   color: var(--cloud);
 }
 .list-items {
   list-style-type: none;
 }
-.list-items > li > a {
+
+.navigation-link,
+.contacts-item {
   text-decoration: none;
 }
-header > nav > .list-items > li > a {
+
+.navigation-link {
   font-weight: 500;
-  font-size: 16px;
   line-height: 150%;
   color: var(--navy-blue);
 }
-header > nav > .list-items > li > a:hover {
+.navigation-link:hover {
   color: var(--iris);
 }
-header > .contacts a {
-  font-size: 16px;
+.contacts-item {
   line-height: 150%;
   color: var(--slate);
   font-style: normal;
 }
-header > .contacts a:hover {
+.contacts-item:hover {
   color: var(--iris);
 }
-.page-title {
-  width: 1440px;
-  height: 600px;
+.page-title-section {
   background: var(--navy-blue);
 }
-.page-title h1 {
+.page-title {
   width: 496px;
   height: 120px;
   font-weight: 700;
@@ -73,79 +73,102 @@ header > .contacts a:hover {
   text-align: center;
   color: var(--white);
 }
-.page-title button {
+.page-title-hidden {
+  color: transparent;
+}
+.order-button {
   border-radius: 4px;
   padding: 16px 32px;
   width: 169px;
   height: 56px;
   background: var(--iris);
+  color: var(--white);
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
-h2 {
+.section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
   text-transform: capitalize;
   text-align: center;
   color: var(--navy-blue);
-}
-button {
   cursor: pointer;
-  color: var(--white);
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+.project-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.portfolio-item-content {
+  text-decoration: none;
+}
+.order-button:hover {
+  background: var(--ocean);
 }
 .filter-button {
   border: 1px solid var(--cornflower);
   border-radius: 4px;
   padding: 12px 24px;
-  width: 116px;
-  height: 48px;
   background-color: var(--cloud);
   color: var(--iris);
+  font-weight: 500;
+  cursor: pointer;
 }
 .filter-button:hover {
   background-color: var(--ocean);
   color: var(--white);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
-.page-title button:hover {
-  background: var(--ocean);
+.section-title-hidden {
+  color: transparent;
 }
-h3 {
+.project-category {
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.benefit-item,
+.team-card-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
   color: var(--navy-blue);
 }
-.benefits .list-items > p {
-  font-size: 16px;
+.benefit-item {
+  text-align: left;
+}
+.benefit-description {
   line-height: 150%;
   letter-spacing: 0.02em;
 }
 .team {
   background: var(--cloud);
 }
-.team-list > li {
-  width: 264px;
-  height: 380px;
+.team-card {
   box-shadow:
     0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16),
     0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: var(--white);
 }
-.portfolio-item {
-  border: 1px solid #e7e9fc;
-  width: 360px;
-  height: 420px;
+.team-card-name {
+  text-align: center;
 }
-footer {
-  width: 1440px;
-  height: 312px;
+
+.team-card-job {
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.additional-info {
   background: var(--navy-blue);
 }
-footer > p {
-  width: 264px;
-  height: 112px;
-  font-size: 16px;
+.tagline {
   line-height: 150%;
   color: var(--cloud);
 }
