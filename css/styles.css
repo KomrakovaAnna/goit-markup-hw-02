@@ -171,4 +171,6 @@ body {
 .tagline {
   line-height: 150%;
   color: var(--cloud);
+  height: 72px;
+  width: 264px;
 }
